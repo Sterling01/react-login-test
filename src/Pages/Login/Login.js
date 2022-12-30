@@ -33,7 +33,6 @@ const Login = () => {
     return (
         <div className='login-box'>
             <h2> Login</h2>
-            <h2>{process.env.REACT_APP_BASE_URL} <code>src/App.js</code> and save  </h2>
             <form onSubmit={handleSubmitLoginForm}>
                 <div className='user-box'>
                     <input type='text' htmlFor="username" value={userName} onChange={handleUsername}></input>
