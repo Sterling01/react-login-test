@@ -24,9 +24,7 @@ const Login = () => {
     }
 
     const authLoginSiprok = async (loginObject) => {
-        let loginData = await authenticate(loginObject);
-
-        console.log(loginData);
+        await authenticate(loginObject);
     }
 
 
